@@ -3,6 +3,8 @@ body {
     padding: 0px;
 }
 
+/*Fazendo meu header*/
+
 header {
     display: flex;
     padding: 25px;
@@ -55,4 +57,47 @@ header .menu {
 a {
     text-decoration: none;
     color: black;
+}
+
+/*------------------------------------------------------*/
+
+.apos-banner {
+    display: flex;
+}
+
+.pratos-destaque-informacoes {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.pratos-destaque {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    background-color: rgb(204, 253, 237);
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.apresentacao-pratos h1, .apresentacao-pratos p {
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao-pratos h1 {
+    font-size: 40px;
+    justify-content: center;
+}
+
+.apresentacao-pratos p {
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
