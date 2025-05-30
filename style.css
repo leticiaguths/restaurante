@@ -61,6 +61,17 @@ a {
 
 /*------------------------------------------------------*/
 
+/*Fazendo meu banner*/
+
+.banner {
+    background-image: url();
+}
+
+
+/*------------------------------------------------------*/
+
+/*Fazendo após banner*/
+
 .apos-banner {
     display: flex;
 }
@@ -82,7 +93,6 @@ a {
 
 .apresentacao-pratos h1, .apresentacao-pratos p {
     display: flex;
-    justify-content: center;
 }
 
 .apresentacao-pratos h1 {
@@ -90,10 +100,10 @@ a {
     justify-content: center;
 }
 
-.apresentacao-pratos p {
+.descricao-destaque {
     font-size: 20px;
-    flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .informacoes {
@@ -101,3 +111,5 @@ a {
     flex-direction: column;
     position: relative;
 }
+
+/*------------------------------------------------------*/
