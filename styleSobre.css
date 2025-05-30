@@ -1,0 +1,9 @@
+.sobre{
+    color: crimson;
+    text-decoration: underline;
+}
+
+.ul li:hover:not(.button):not(.sobre) {
+    color: crimson;
+    cursor: pointer;
+}

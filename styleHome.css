@@ -1,0 +1,9 @@
+.home{
+    color: crimson;
+    text-decoration: underline;
+}
+
+.ul li:hover:not(.button):not(.home) {
+    color: crimson;
+    cursor: pointer;
+}
