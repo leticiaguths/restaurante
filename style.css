@@ -1,0 +1,52 @@
+/*<header>
+<div id="logo">Logo Sabor e Arte</div>
+<div>
+    <nav><ul>
+        <li>Home</li>
+        <li>Cardápio</li>
+        <li>Sobre</li>
+        <li>Contato</li>
+    </ul></nav>
+<button>Reservar Mesa</button>
+</div>
+</header>*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: antiquewhite;
+    align-items: center;
+}
+
+header #logo {
+    font-size: 20px;
+}
+
+header .menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
